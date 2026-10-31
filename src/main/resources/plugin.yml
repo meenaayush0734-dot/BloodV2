@@ -1,0 +1,10 @@
+name: BloodSteal
+version: 2.0.0
+main: com.bloodsteal.BloodStealPlugin
+api-version: '1.21'
+author: BloodSteal
+description: Blood system with PvP stealing, withdrawable blood vials and 5 tiered Gems.
+commands:
+  bwithdraw:
+    description: Blood ka kuch hissa Blood Vial mein nikalo
+    usage: /bwithdraw <amount>
