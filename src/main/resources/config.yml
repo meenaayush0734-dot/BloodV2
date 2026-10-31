@@ -1,0 +1,59 @@
+settings:
+  base-max-blood: 200.0
+  starting-blood: 200.0
+  # MULTIPLY: max blood = base-max-blood x gem multiplier (e.g. Blood Gem = 300)
+  # SET:      max blood = gem multiplier x 100 (e.g. Blood Gem = 150)
+  gem-multiplier-mode: MULTIPLY
+  pvp-steal-amount: 10.0
+  ban-on-zero: true
+  ban-reason: "Aapka blood khatam ho gaya"
+  actionbar-enabled: true
+
+pvp:
+  enabled: true
+  allow-team-damage: false
+
+gems:
+  blood:
+    multiplier: 1.5
+  crimson:
+    multiplier: 2.5
+  shadow:
+    multiplier: 4.0
+  inferno:
+    multiplier: 6.0
+  averon:
+    multiplier: 9.0
+
+abilities:
+  blood-burst:
+    cooldown: 20
+    radius: 4
+    damage: 3
+    knockback: 1.2
+  crimson-rage:
+    cooldown: 30
+    duration: 10
+    strength-level: 1
+  shadow-blink:
+    cooldown: 8
+    distance: 8
+  infernal-execution:
+    cooldown: 15
+    range: 6
+    damage: 4
+    fire-seconds: 5
+    slowness-seconds: 5
+    slowness-level: 2
+  blood-dominion:
+    cooldown: 60
+    duration: 8
+    strength-level: 2
+  averon-rift:
+    cooldown: 12
+    distance: 10
+    damage: 6
+  supreme-blood:
+    cooldown: 90
+    health-threshold: 0.3
+    resistance-seconds: 3
